@@ -9,6 +9,11 @@ public class Stepdefs {
     private String today;
     private String actualAnswer;
 
+    @Given("today is Friday")
+    public void today_is_Friday() {
+        today = "Friday";
+    }
+
     @Given("today is Sunday")
     public void today_is_Sunday() {
         today = "Sunday";
